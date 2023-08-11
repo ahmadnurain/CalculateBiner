@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Konversi Biner</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="base">
+        <h4>Konversi Biner</h4>
+        <form action="">
+          <div class="form-control" onkeyup="konversi()">
+            <select name="selection" id="selection">
+              <option value="" disabled>Pilih Opsi Konversi</option>
+              <option value="">Desimal</option>
+              <option value="">Biner</option>
+              <option value="">Oktal</option>
+              <option value="">Hexadesimal</option>
+            </select>
+            <input type="text" id="inputangka" />
+          </div>
+          <div class="text">
+            <p>Hasil</p>
+          </div>
+          <div class="output">
+            <div class="output1">
+              <label for="">Desimal</label>
+              <input type="text" id="inputdec" />
+            </div>
+            <div class="output1">
+              <label for="">Biner</label>
+              <input type="text" id="inputbin" />
+            </div>
+            <div class="output1">
+              <label for="">Oktal</label>
+              <input type="text" id="inputokt" />
+            </div>
+            <div class="output1">
+              <label for="">Hexadesimal</label>
+              <input type="text" id="inputhex" />
+            </div>
+          </div>
+          <button type="reset" name="submit" value="button">RESET ANGKA</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
